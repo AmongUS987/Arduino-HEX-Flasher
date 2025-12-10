@@ -8,7 +8,6 @@ A modern, user-friendly Windows application to easily flash `.hex` firmware file
 Built with Python and CustomTkinter, this tool detects your board automatically, handles bootloader quirks, and uses the reliable `avrdude` under the hood — all in a sleek, dark-themed GUI.
 
 ![Arduino HEX Flasher Screenshot](screenshot.png)  
-*Replace this with an actual screenshot in your repo!*
 
 ---
 
