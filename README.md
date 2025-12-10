@@ -55,6 +55,31 @@ The app intelligently selects the correct MCU, baud rate, and programmer setting
 6. Choose your `.hex` file
 7. Click **"Upload"** — and you're done!
 
+
+## 🧰 How to Get `avrdude.exe` (Required)
+
+This tool uses **[avrdude](https://github.com/avrdudes/avrdude)** — a free, open-source utility for flashing AVR microcontrollers (like those in Arduino boards).
+
+To comply with the **GNU GPL v2 license**, **`avrdude.exe` and `avrdude.conf` are not included** in this repository.
+
+✅ **Please obtain them from the official Arduino IDE:**
+
+1. Install the [Arduino IDE](https://www.arduino.cc/en/software) (free from arduino.cc)
+2. Navigate to its installation folder:  
+   `C:\Program Files (x86)\Arduino\hardware\tools\avr\`
+3. Copy these two files into your `Arduino HEX Flasher` folder:
+   - `bin\avrdude.exe`
+   - `etc\avrdude.conf`
+
+> ℹ️ This ensures compatibility, security, and full compliance with avrdude's license.
+
+---
+
+### 📜 License Notice
+- `avrdude` is copyright © by its authors and licensed under **[GNU GPL v2](https://github.com/avrdudes/avrdude/blob/main/COPYING)**.  
+- Source code: https://github.com/avrdudes/avrdude  
+- This project is **not affiliated** with the avrdude team or Arduino LLC.
+
 ---
 
 ## 🛠️ Build from Source
